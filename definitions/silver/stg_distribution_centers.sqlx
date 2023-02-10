@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  schema: dataform.projectConfig.vars.silver_dataset_name,
+  description: "Distribution center information",
+  columns: {
+    id: "Distribution center id",
+  },
+  tags : ["silver"],
+  assertions: {
+    uniqueKey: ["id"]
+  }
+}
+
+select * from ${ref("distribution_centers")}

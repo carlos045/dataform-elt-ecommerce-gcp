@@ -1,0 +1,18 @@
+config {
+  type: "table",
+  schema: dataform.projectConfig.vars.silver_dataset_name,
+  description: "Events information",
+  columns: {
+    id: "Events id",
+    user_id : "User id",
+    created_at : "Created",
+    browser : "Browser client"
+  },
+  tags : ["silver"],
+  assertions: {
+    uniqueKey: ["id"]
+  }
+}
+
+select id,user_id,sequence_number,created_at,browser
+  from ${ref("events")}

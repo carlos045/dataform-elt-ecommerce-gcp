@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  schema: dataform.projectConfig.vars.silver_dataset_name,
+  description: "Inventory item information",
+  columns: {
+    id: "Inventory items id",
+  },
+  tags : ["silver"],
+  assertions: {
+    uniqueKey: ["id"]
+  }
+}
+
+select * from ${ref("inventory_items")}

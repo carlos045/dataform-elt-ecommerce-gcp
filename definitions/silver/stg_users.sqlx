@@ -1,0 +1,8 @@
+config {
+  type: "table",
+  schema: dataform.projectConfig.vars.silver_dataset_name,
+  description: "Users",
+  tags : ["silver"]
+}
+
+select * from ${ref("users")}
