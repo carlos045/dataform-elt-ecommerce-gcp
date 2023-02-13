@@ -1,0 +1,23 @@
+config {
+  type: "table",
+  schema: dataform.projectConfig.vars.gold_dataset_name,
+  description: "Total number of sales by product.",
+  columns: {
+    product_id: "Product Id",
+    product_name : "Product name",
+    category_name : "Category name",
+    num_orders : "Number orders"
+  },
+  tags : ["gold"]
+}
+
+SELECT 
+  oi.product_id as product_id, 
+  p.name as product_name, 
+  p.category as category_name, 
+  count(*) as num_orders
+FROM ${ref("stg_products")} as p 
+INNER JOIN ${ref("stg_order_items")} as oi
+ON p.id = oi.product_id
+GROUP BY 1,2,3
+ORDER BY num_orders DESC
