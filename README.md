@@ -1,6 +1,6 @@
 # dataform-elt-ecommerce-gcp
 
-<img width="805" src="https://user-images.githubusercontent.com/2066453/218586687-0f834539-f1d3-474c-b47a-6ac99b187b04.png">
+<img width="805" src="https://user-images.githubusercontent.com/2066453/218587987-b1349d70-5207-4d29-b264-e9231ff79501.png">
 
 ## Diagrama desde Dataform
 
