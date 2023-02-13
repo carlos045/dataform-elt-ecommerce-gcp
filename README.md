@@ -4,4 +4,4 @@
 
 ## Diagrama desde Dataform
 
-<img width="1005" src="https://user-images.githubusercontent.com/2066453/218586384-a2f6cfd4-a9f5-49f8-96d8-01924ffda567.png">
+<img width="805" src="https://user-images.githubusercontent.com/2066453/218586384-a2f6cfd4-a9f5-49f8-96d8-01924ffda567.png">
