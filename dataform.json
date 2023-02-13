@@ -1,6 +1,6 @@
 {
   "warehouse": "bigquery",
-  "defaultDatabase": "hypnotic-guard-368114",
+  "defaultDatabase": "TUPROJECTID",
   "defaultSchema": "ecommerce_bronze",
   "defaultLocation": "us-central1",
   "assertionSchema": "ecommerce_silver",
