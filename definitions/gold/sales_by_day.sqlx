@@ -2,6 +2,12 @@ config {
   type: "table",
   schema: dataform.projectConfig.vars.gold_dataset_name,
   description: "Sales by day",
+  columns: {
+    order_created_date: "Order date",
+    revenue : "Total revenue",
+    order_count : "Order count",
+    customers_orderd : "Customer count"
+  },
   tags : ["gold"]
 }
 
