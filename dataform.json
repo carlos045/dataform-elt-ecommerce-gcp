@@ -2,8 +2,8 @@
   "warehouse": "bigquery",
   "defaultDatabase": "TUDIPROYECTO",
   "defaultSchema": "ecommerce_bronze",
-  "assertionSchema": "ecommerce_silver",
   "defaultLocation": "us-central1",
+  "assertionSchema": "ecommerce_silver",
   "vars": {
     "bronze_dataset_name": "ecommerce_bronze",
     "silver_dataset_name": "ecommerce_silver",
