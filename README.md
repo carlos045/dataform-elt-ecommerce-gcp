@@ -1,6 +1,6 @@
 # dataform-elt-ecommerce-gcp
 
-![Talleres-Mensuales-Data - taller02-ae](https://user-images.githubusercontent.com/2066453/218128643-e5451908-4032-4215-8880-b4531eb9defa.png)
+<img width="805" src="https://user-images.githubusercontent.com/2066453/218586687-0f834539-f1d3-474c-b47a-6ac99b187b04.png">
 
 ## Diagrama desde Dataform
 
