@@ -1,6 +1,6 @@
 {
   "warehouse": "bigquery",
-  "defaultDatabase": "TUPROJECTID",
+  "defaultDatabase": "app-fabrica-202018",
   "defaultSchema": "ecommerce_bronze",
   "defaultLocation": "us-central1",
   "assertionSchema": "ecommerce_silver",
